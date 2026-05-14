@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apple Chart — scattered covers</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #0d0d0f;
+        color: #e8e6e3;
+        font-family: system-ui, sans-serif;
+      }
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      h1 {
+        font-weight: 600;
+        font-size: 1.1rem;
+        letter-spacing: 0.02em;
+      }
+      .meta {
+        font-size: 0.8rem;
+        opacity: 0.75;
+        margin-bottom: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Most-played — random layout &amp; tilt</h1>
+      <p class="meta" id="status">Loading…</p>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <!-- API runs on Node (PORT=4141). Open http://127.0.0.1:4141/ or use ?api=http://127.0.0.1:4141 if static server is on another port. -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
